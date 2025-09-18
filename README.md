@@ -26,7 +26,7 @@ It reads data from the [`procpower`](https://github.com/green-kernel/procpower) 
 - WordPress (containerized in this setup)
 
 
-🔎 Limitations
+## 🔎 Limitations
 
 Due to the way Linux and Docker work, we can only show the energy usage of the container the plugin is running in. It is technically not possible to display the resource consumption of other processes.
 
