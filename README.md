@@ -8,7 +8,6 @@ It reads data from the [`procpower`](https://github.com/green-kernel/procpower) 
   <img src="Screenshot.png" alt="Screenshot of WP Sustainability Monitor" width="400px">
 </p>
 
----
 
 ## ✨ Features
 
@@ -19,7 +18,6 @@ It reads data from the [`procpower`](https://github.com/green-kernel/procpower) 
 - Includes raw `/proc/energy/cgroup` output for debugging
 - Keeps data fully inside the Docker container — **no sensitive host data is leaked**
 
----
 
 ## ⚡ Requirements
 
@@ -27,7 +25,12 @@ It reads data from the [`procpower`](https://github.com/green-kernel/procpower) 
 - Docker & Docker Compose
 - WordPress (containerized in this setup)
 
----
+
+🔎 Limitations
+
+Due to the way Linux and Docker work, we can only show the energy usage of the container the plugin is running in. It is technically not possible to display the resource consumption of other processes.
+
+If you are running your database somewhere else, you will need to install a logger inside this container. This is straightforward, as you can simply read the `cgroup` file available within the container.
 
 ## 🚀 Quick Start (Docker Compose)
 
