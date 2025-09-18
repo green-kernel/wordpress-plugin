@@ -5,7 +5,7 @@ A WordPress admin plugin that visualizes the energy consumption of your WordPres
 It reads data from the [`procpower`](https://github.com/green-kernel/procpower) kernel extension (`/proc/energy/cgroup`) and displays it in a live chart (1-second interval) directly in the WordPress dashboard.
 
 <p align="center">
-  <img src="screenshot.png" alt="Screenshot of WP Sustainability Monitor" width="300">
+  <img src="Screenshot.png" alt="Screenshot of WP Sustainability Monitor" width="400px">
 </p>
 
 ---
